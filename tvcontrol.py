@@ -7,7 +7,7 @@ import json
 
 #Variables
 tvIpAddress = '##IP ADDRESS OF TV##'
-buttonObjectFilePath = '/home/pi/iot/buttonclicktype'
+buttonObjectFilePath = '/home/pi/aws-iot-roku-tv-control/buttonclicktype'
 rokutv = Roku(tvIpAddress)
 AVinput = rokutv['AV']
 HDMITVinput = rokutv['tvinput.hdmi1']
