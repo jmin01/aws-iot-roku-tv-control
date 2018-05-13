@@ -10,12 +10,10 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 node-red-start
 sudo systemctl enable nodered.service
 pip install roku
+cd ~
+git clone https://github.com/jmin01/aws-iot-roku-tv-control/
+sudo chmod 700 ~/aws-iot-roku-tv-control/TVControlScript.py
 ```
-Create a new folder named iot, change directory, and clone this repository.
-```sh
-mkdir iot
-cd iot
-```
+These commands will update your apt repository, install and start node red, install the roku python package, and clone this git repository to your home directory. Once you complete these steps, you're ready to configure Node-RED to listen for IoT button clicks and control your TV!
+## Configuring Node-RED
 
-
-##
