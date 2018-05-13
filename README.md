@@ -16,4 +16,4 @@ sudo chmod 700 ~/aws-iot-roku-tv-control/TVControlScript.py
 ```
 These commands will update your apt repository, install and start node red, install the roku python package, and clone this git repository to your home directory. Once you complete these steps, you're ready to configure Node-RED to listen for IoT button clicks and control your TV!
 ## Configuring Node-RED
-
+Before proceeding, I recommend adding a username and password to access the Node-RED editor. Documentation can be found [here](https://nodered.org/docs/security). Using a web browser on your computer, type in {Raspberry Pi Hostname}.local:1880 and load the page. Enter in your credentials and you'll be taken to a page where you can create your flows. On the left panel, you'll see a palette of different objects you can add to the canvas in the middle. 
